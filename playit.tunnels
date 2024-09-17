@@ -1,0 +1,104 @@
+{
+  "tcp_alloc": {
+    "allowed": 6,
+    "claimed": 1,
+    "desired": 1
+  },
+  "tunnels": [
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "directory-bottle.gl.joinmc.link",
+          "assigned_srv": "directory-bottle.gl.joinmc.link",
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "376328d8-c6db-48a2-835b-a28bdd672bf2",
+          "ip_hostname": "20.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 51190,
+          "port_start": 51189,
+          "region": "global",
+          "static_ip4": "147.185.221.20",
+          "tunnel_ip": "2602:fbaf:0:1::14"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-09-16T05:20:20.667168Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "00142854-707b-4e29-9449-c376ee09c130",
+      "name": "Minecraft Java",
+      "origin": {
+        "data": {
+          "agent_id": "f0d58911-fb58-4146-a722-caf9d4f43ddf",
+          "agent_name": "from-key-5ca4",
+          "local_ip": "127.0.0.1",
+          "local_port": 25565
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "tcp",
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": "minecraft-java"
+    },
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "boston-sale.gl.at.ply.gg",
+          "assigned_srv": null,
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "9c0bc068-f3cd-4001-bebf-fa7d6a8743cc",
+          "ip_hostname": "20.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 3407,
+          "port_start": 3406,
+          "region": "global",
+          "static_ip4": "147.185.221.20",
+          "tunnel_ip": "2602:fbaf:0:1::14"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-09-16T06:24:11.957811Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "0d138b78-f997-4e74-92eb-a5132da941cd",
+      "name": "Voicechat",
+      "origin": {
+        "data": {
+          "agent_id": "f0d58911-fb58-4146-a722-caf9d4f43ddf",
+          "agent_name": "from-key-5ca4",
+          "local_ip": "127.0.0.1",
+          "local_port": 3406
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "udp",
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": null
+    }
+  ],
+  "udp_alloc": {
+    "allowed": 6,
+    "claimed": 1,
+    "desired": 1
+  }
+}
